@@ -1,0 +1,200 @@
+
+#wrap{
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#header{
+	background-image: url('image/bgheader.jpg');
+	border-bottom-right-radius: 50px;
+	width: 730px;
+	height: 300px;
+	margin: auto;
+	box-shadow:0 0 10px rgba(0,0,0,.25);
+	float: right;
+}
+
+#judul{
+	font-family: cursive;
+	font-size: 100px;
+	text-align: center;
+	padding: 50px 50px 0 0;
+}
+
+#judul a{
+	color: indianred;
+	text-shadow: 3px 3px 3px whitesmoke;
+	text-decoration: none;
+}
+
+.desc{
+	font-size: 20px;
+	font-family: monospace;
+	color: dimgray;
+	text-align: center;
+	padding: 0 40px 0 0;
+}
+
+#menu ul{
+	float: right;
+	background: lightpink;
+	padding: 0 0px;
+	position: relative;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+	list-style: none;
+	width: 730px;
+	font-size: 20px;
+}
+
+#menu ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#menu ul li{
+	float: left;
+}
+
+#menu ul li:hover{
+	background: gainsboro;
+}
+
+#menu ul li a{
+	display: block;
+	color: dimgray;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+#menu ul li: hover a{
+	color: gainsboro;
+}
+
+#menu ul li:hover > ul {
+	display: block;
+}
+
+#menu ul ul{
+	background: lightpink;
+	position: absolute;
+	padding: 0;
+	top: 100%;
+	display: none;
+	width: auto;
+}
+
+#menu ul ul li{
+	float: none;
+	position: relative;
+}
+
+#kiri{
+	border-top-left-radius: 50px;
+	background-color: mistyrose;
+	width: 250px;
+	height: auto;
+	margin: 0 0 20px;
+	float: left;
+	list-style: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+}
+
+#kiri .logo{
+	width: 200;
+	height: 200;
+}
+
+#kiri ul{
+	margin: 0 0 20px 20px;
+	padding: 0;
+	list-style: none;
+	width: 200px;
+}
+
+#kiri li{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#kiri h3{
+	margin: 0px 0 0px 0;
+	padding: 5px 12px;
+	color: dimgray;
+	font-size: 20px;
+	background: lightpink;
+}
+
+#kiri a{
+	display: block;
+	padding: 3px 10px;
+	text-decoration: none;
+	color: dimgray;
+	border-bottom: 1px dotted grey;
+}
+
+#kiri a:hover{
+	background: gainsboro;
+}
+
+#konten{
+	background-color: mistyrose;
+	width: 690px;
+	height: auto;
+	margin: 0 0 20px;
+	padding: 20px 20px 20px 20px;
+	float: right;
+	box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+
+.posttitle{
+	text-decoration: none;
+	font-size: 25px;
+	font-family: cursive;
+	color: dimgray;
+}
+
+.posttitle a{
+	text-decoration: none;
+}
+
+.post{
+	margin: 20px 20px;
+	padding: 10px;
+	text-align: justify;
+	color: dimgray;
+}
+
+b a{
+	color: palevioletred;
+	text-decoration: none;
+}
+
+b a:hover{
+	background: gainsboro;
+}
+
+img{
+	width: 30%;
+}
+
+#logo{
+	width: 200px;
+	height: 200px
+}
+#footer{
+	background-color: lightpink;
+	padding: 20px 0 0 0;
+	width: 1000px;
+	height: 90px;
+	clear: both;
+	margin: 20 0;
+	text-align: center;
+	color: dimgray;
+	border-top-Left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}

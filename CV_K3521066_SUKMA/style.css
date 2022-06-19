@@ -1,0 +1,261 @@
+.smartphone{
+	display: none;
+}xx
+
+.desktop{
+	display: none;
+}
+
+@media only screen and (min-width: 1024px){
+	.landscape{
+		display: none;
+	}
+}
+
+@media only screen and(max-width: 428px){
+	.smartphone{
+		display: none;
+	}
+}
+
+.top-box{
+	background-image: url('image/bg13.png');
+	width: 630px;
+	height: 300px;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	margin: auto;
+	box-shadow:0 0 10px grey;
+}
+
+.top-box #img{
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	border-radius: 100px;
+	float: left;
+}
+
+.top-box #name{
+	font-family: 'Sora', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: saddlebrown;
+	text-transform: uppercase;
+	text-align: right;
+	margin: 70px 100px 50px 0;
+	padding: 10px;
+	float: right;
+	display: inline;
+}
+
+.top-box #profil p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: sienna;
+	text-align: bottom;
+	margin: auto 30px;
+	padding: 10px 10px;
+	float: left;
+	display: inline;
+}
+
+.biodata-box{
+	background-image: url('image/bg24.jpg');
+    box-shadow: 0 0 10px grey;
+    width: 630px;
+    height: 400px;
+    margin: 15px auto;
+    box-sizing: border-box;
+}
+
+.biodata-box #icon-bio{
+	width: 40px;
+	height: 40px;
+	margin: 40px;
+	float: right;
+}
+
+.biodata-box #biodata-judul{
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	color: saddlebrown;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+
+.biodata-box #biodata-isi #span{
+	font-family: 'Open sans', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: saddlebrown;
+	margin: 0 0 30px 20px;
+	display: inline;
+}
+
+.biodata-box #biodata-isi p{
+	font-family: 'Open sans', sans-serif;
+	font-size: 15px;
+	text-align: left;
+	color: sienna;
+	margin: 0 30px 10px 30px;
+}
+
+.pend-box{
+	background-image: url('image/bg13.png');
+    box-shadow: 0 0 10px grey;
+    width: 630px;
+    height: 350px;
+    margin: 15px auto;
+    box-sizing: border-box;
+}
+
+.pend-box #icon-pend{
+	width: 30px;
+	height: 30px;
+	margin: 40px;
+	float: right;
+}
+
+.pend-box #pend-judul{
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	color: saddlebrown;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.pend-box #pend-isi ul li{
+	font-family: 'Open sans', sans-serif;
+	font-size: 15px;
+	color: sienna;
+	text-align: left;
+	margin: 0 0 30px 20px;
+}
+
+.org-box{
+	background-image: url('image/bg24.jpg');
+    box-shadow: 0 0 10px grey;
+    width: 630px;
+    height: 180px;
+    margin: 15px auto;
+    box-sizing: border-box;
+}
+
+.org-box #icon-org{
+	width: 30px;
+	height: 30px;
+	margin: 40px;
+	float: right;
+}
+
+.org-box #org-judul{
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	color: saddlebrown;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.org-box #org-isi ul li{
+	font-family: 'Open sans', sans-serif;
+	font-size: 15px;
+	color: sienna;
+	text-align: left;
+	margin: 20px 0 30px 20px;
+}
+
+.skill-box{
+	background-image: url('image/bg13.png');
+    box-shadow: 0 0 10px grey;
+    width: 630px;
+    height: 200px;
+    margin: 15px auto;
+    box-sizing: border-box;
+}
+
+.skill-box #icon-skill{
+	width: 30px;
+	height: 30px;
+	margin: 40px;
+	float: right;
+}
+
+.skill-box #skill-judul{
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	color: saddlebrown;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.skill-box #skill-isi{
+	font-family: 'Open sans', sans-serif;
+	font-size: 15px;
+	color: sienna;
+	text-align: left;
+	margin: 20px 0 30px 20px;
+}
+
+.galeri-box{
+	background-image: url('image/bg24.jpg');
+    box-shadow: 0 0 10px grey;
+    width: 630px;
+    height: 300px;
+    margin: 15px auto;
+    box-sizing: border-box;
+}
+
+.galeri-box #galeri-judul{
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	color: saddlebrown;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.galeri-box #galeri-isi img{
+	width: 200px;
+	height: 200px;
+	margin: 30px 3px;
+}
+
+.contact-box{
+	background-image: url('image/bg13.png');
+    box-shadow: 0 0 10px grey;
+    width: 630px;
+    height: 150px;
+    margin: 15px auto;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.contact-box #icon-contact{
+	width: 30px;
+	height: 30px;
+	margin: 40px;
+	float: right;
+}
+
+.contact-box #contact-judul{
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	color: saddlebrown;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.contact-box #contact-isi{
+	font-family: 'Open sans', sans-serif;
+	font-size: 15px;
+	color: sienna;
+	text-align: left;
+	margin: 20px 0 30px 20px;
+}
